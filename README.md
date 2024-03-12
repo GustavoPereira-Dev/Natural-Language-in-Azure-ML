@@ -20,7 +20,7 @@ Esse site (https://speech.microsoft.com/portal), como o próprio nome já diz, t
 ![alt text](assets/image-7.png)
 
 ## Language Studio
-O Language Studio tem um objetivo semelhante ao Speech Studio, contudo o enfoque dele é na leitura de documentos ou textos, em que ele irá analizá-los e retornar dados como conversão de texto para fala, tradução e entre outros.
+O Language Studio (https://language.cognitive.azure.com/) tem um objetivo semelhante ao Speech Studio, contudo o enfoque dele é na leitura de documentos ou textos, em que ele irá analizá-los e retornar dados como conversão de texto para fala, tradução e entre outros.
 1. Indo para a tela inicial do Portal do Azure, você deve fazer aquele processo padrão que possivelmente já está acostumado: Clicar em criar um novo recurso ou create a new resource, escolher a categoria AI + Machine Learning e dessa vez escolher o Language Service e clicar no criar ou create
 ![alt text](assets/image-8.png)
 ![alt text](assets/image-9.png)
@@ -39,6 +39,7 @@ O Language Studio tem um objetivo semelhante ao Speech Studio, contudo o enfoque
 ![alt text](assets/image-17.png)
 ![alt text](assets/image-18.png)
 ![alt text](assets/image-19.png)
+
 Nota: caso queira testar também isso, o texto utilizado está abaixo:
 <code>Tired hotel with poor service
  The Royal Hotel, London, United Kingdom
@@ -51,21 +52,29 @@ Só irei demonstrar algumas, mas todas as outras estão no diretório do repo em
 
 ### Amostra 1
 <code>I had a delightful stay at The Royal Hotel. The location in Russell Square is fantastic, with easy access to major attractions. The British Museum is just a short walk away. The rooms were clean and comfortable, and the staff was friendly and helpful. I highly recommend it!</code>
+
 ![alt text](assets/image-20.png)
+
 ![alt text](assets/image-21.png)
+
 ![alt text](assets/image-22.png)
+
 Nessa primeira amostra é possível ver mais claramente o funcionamento dessa ferramenta, em que a IA identifica cada frase, analisa as de forma avulsa e no final faz um cálculo geral para definir qual sentimento prevalece nisso, em que nesse caso é o Positivo
 ### Amostra 2
 <code>The Royal Hotel offers standard rooms that are great value for money. They provide clean and comfortable accommodation, but don’t expect luxury. It’s a practical choice for budget travelers who want a central location.</code>
+
 ![alt text](assets/image-23.png)
 ![alt text](assets/image-24.png)
+
 Para um Neutro ele encontra alguns pontos positivos, mas admite também que é algo mais nesse sentido, não completamente positivo como o último
 
 ### Amostra 3
 <code>Embora a localização seja conveniente, o hotel carece de algumas comodidades modernas. A decoração parece datada e os quartos poderiam ser atualizados. Além disso, o buffet de café da manhã, embora decente, não se destaca.</code>
+
 ![alt text](assets/image-25.png)
 ![alt text](assets/image-26.png)
 ![alt text](assets/image-27.png)
+
 Nessa última, podemos ver como seria se tentassemos trazer uma frase para Português (configurando a com essa língua). Além disso, ele percebeu claramente que essa opinião dada é muito negativa
 
 
